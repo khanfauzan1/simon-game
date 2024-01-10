@@ -13,7 +13,7 @@ var level = 0;
 //7.1. Use jQuery to detect when a keyboard key has been pressed, when that happens for the first time, call nextSequence().
 $(document).keydown(function(){
       if(!started){
-        //7.3. The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0".
+        //7.3. The h1 title starts out saying "Press A Key to Start or Click Here", when the game has started, change this to say "Level 0".
         $("#level-title").text("Level"+ level);
         nextSequence()
         started=true;
