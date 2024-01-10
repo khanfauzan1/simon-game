@@ -52,3 +52,11 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+a{
+  font-size: 1.2rem;
+  padding-top: 15px;
+  color: #FEF2BF;
+}
+p{
+  margin: 0px;
+}
