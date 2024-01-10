@@ -20,6 +20,16 @@ $(document).keydown(function(){
       }
 });
 
+$("#level-title").click(function(){
+  if(!started){
+    //7.3. The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0".
+   
+    nextSequence();
+    started=true;
+  }
+});
+
+
 
 $(".btn").click(function(){
         
